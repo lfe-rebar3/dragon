@@ -1,0 +1,17 @@
+%% -*- erlang -*-
+
+{application,    'dragon-plugin',
+ [{description,  "The rebar3 dragon plugin"},
+  {vsn,          "0.1.0"},
+  {registered,   []},
+  {applications, [kernel, stdlib]},
+  {env,          []},
+  {modules,      ['dragon-plugin']},
+
+  {maintainers, [ "Duncan McGreggor <oubiwann@gmail.com>"
+                , "Eric Bailey <eric@ericb.me"
+                ]},
+  {licenses, ["Apache License, Version 2.0"]},
+  {links,
+   [{"Homepage", "https://github.com/lfex/rebar3-dragon"},
+    {"Documentation", "http://lfex.github.io/rebar3-dragon"}]}]}.
