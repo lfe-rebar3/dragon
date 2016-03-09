@@ -9,8 +9,8 @@
                  "USERNAME/REPO"}
               ]}.
 
-%% {template, "mod.lfe",      "{{name}}/src/{{name}}.lfe"}.
-%% {template, "app.lfe",      "{{name}}/src/{{name}}-app.lfe"}.
+{template, "mod.lfe",      "{{name}}/src/{{name}}.lfe"}.
+{template, "app.lfe",      "{{name}}/src/{{name}}-app.lfe"}.
 %% {template, "sup.lfe",      "{{name}}/src/{{name}}-sup.lfe"}.
 %% {template, "app.src",      "{{name}}/src/{{name}}.app.src"}.
 %% {template, "README.md",    "{{name}}/README.md"}.
