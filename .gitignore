@@ -1,4 +1,9 @@
-_build
+.DS_Store
+_*
+*.o
 *.beam
+*.plt
+.erlang.cookie
 ebin
-*.dump
+log
+erl_crash.dump
