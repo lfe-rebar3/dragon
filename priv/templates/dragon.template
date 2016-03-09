@@ -1,0 +1,21 @@
+%% -*- erlang -*-
+
+{description, "Dragon web app"}.
+{variables,   [ {name, "my_dragon_app",
+                 "Name of the dragon application"}
+              , {desc, "A dragon application",
+                 "Short description of the app"}
+              , {repo, "A GitHub repo: username/repo",
+                 "USERNAME/REPO"}
+              , {author_name, "Anonymous"}
+              , {copyright_year, "2016",
+                 "The year or range of years for copyright"}]}.
+
+%% {template, "mod.lfe",      "{{name}}/src/{{name}}.lfe"}.
+%% {template, "app.lfe",      "{{name}}/src/{{name}}-app.lfe"}.
+%% {template, "sup.lfe",      "{{name}}/src/{{name}}-sup.lfe"}.
+%% {template, "app.src",      "{{name}}/src/{{name}}.app.src"}.
+%% {template, "README.md",    "{{name}}/README.md"}.
+{template, "rebar.config", "{{name}}/rebar.config"}.
+{template, "gitignore",    "{{name}}/.gitignore"}.
+%% {template, "LICENSE",      "{{name}}/LICENSE"}.
