@@ -7,9 +7,7 @@
                  "Short description of the app"}
               , {repo, "A GitHub repo: username/repo",
                  "USERNAME/REPO"}
-              , {author_name, "Anonymous"}
-              , {copyright_year, "2016",
-                 "The year or range of years for copyright"}]}.
+              ]}.
 
 %% {template, "mod.lfe",      "{{name}}/src/{{name}}.lfe"}.
 %% {template, "app.lfe",      "{{name}}/src/{{name}}-app.lfe"}.
@@ -17,5 +15,6 @@
 %% {template, "app.src",      "{{name}}/src/{{name}}.app.src"}.
 %% {template, "README.md",    "{{name}}/README.md"}.
 {template, "rebar.config", "{{name}}/rebar.config"}.
+{template, "lfe.config",   "{{name}}/lfe.config"}.
 {template, "gitignore",    "{{name}}/.gitignore"}.
-%% {template, "LICENSE",      "{{name}}/LICENSE"}.
+{template, "LICENSE",      "{{name}}/LICENSE"}.
